@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "utilityCassa:build:production"
+              "buildTarget": "utilityCassa:build:production"
             },
             "development": {
-              "browserTarget": "utilityCassa:build:development"
+              "buildTarget": "utilityCassa:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "utilityCassa:build"
+            "buildTarget": "utilityCassa:build"
           }
         },
         "test": {
